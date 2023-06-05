@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Raleway:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    body {
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100vw;
+      height: 100vh;
+      background-color: #f0f0f0;
+    }
+
+    main {
+      background-color: #d3dfed;
+      font-family: 'Montserrat', sans-serif;
+      font-family: 'Raleway', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .Mainbody {
+      max-width: 85%;
+      background-color: white;
+      align-items: center;
+      border-radius: 20px;
+    }
+
+    .box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-width: 200px;
+      padding-bottom: 35px;
+      max-width: 315px;
+      max-height: 630px;
+    }
+
+    img {
+      margin-top: 20px;
+      width: 90%;
+      border-radius: 10px;
+    }
+
+    .text-stuff {
+      color: hsl(218, 44%, 22%);
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 15px;
+      line-height: 25px;
+      font-size: 20px;
+      font-weight: 900;
+      padding: 0 28px;
+    }
+
+    .Comments {
+      color: hsl(220, 15%, 55%);
+      text-align: center;
+      padding: 0 32px;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 20px;
+    }
+
+    @media(min-width : 1000px) {
+      main {
+        width: 80vw;
+        height: 75vh;
+        box-shadow: 0 10px 16px rgba(0, 0, 0, 0.2);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <section class="Mainbody">
+      <div class="box">
+        <img src="images/image-qr-code.png" alt="">
+        <div class="text-stuff">
+          Improve your front-end skills by building projects
+        </div>
+        <div class="Comments">
+          Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Khadraoui Rahim</a>.
+  </div>
+  -->
+</body>
+
+</html>
