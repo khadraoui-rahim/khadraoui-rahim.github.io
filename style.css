@@ -190,14 +190,14 @@ input[type=text] {
 
 @media(width>1200px) {
     #sec-1 {
-        transform: scale(1.2);
+        transform: scale(1.25);
     }
 
     #sec-2 {
-        transform: scale(1.2);
+        transform: scale(1.25);
     }
 
     #sec-3 {
-        transform: scale(1.2);
+        transform: scale(1.25);
     }
 }
