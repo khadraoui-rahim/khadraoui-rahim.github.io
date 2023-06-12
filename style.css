@@ -1,0 +1,133 @@
+html {
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: hsl(216, 50%, 16%);
+    height: 505px;
+    width: 300px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.size {
+    height: 258px;
+    width: 258px;
+    margin-top: 24px;
+    border-radius: 10px;
+    opacity: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #01ffff75;
+
+}
+
+.overlay {
+    transition: opacity 2s ease;
+}
+
+.overlay-text {
+    transition: color .5s ease;
+}
+
+.overlay:hover {
+    color: #01ffff;
+    opacity: 1;
+
+}
+
+
+.main-pic {
+    width: 86%;
+    border-radius: 10px;
+    margin-top: 24px;
+}
+
+.title {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 21px;
+    color: white;
+    display: flex;
+    width: 86%;
+    justify-content: flex-start;
+}
+
+.disc {
+    font-weight: 400;
+    color: #697e99;
+    width: 86%;
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+
+.eInfo {
+    width: 86%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+    padding-bottom: 15px;
+    border-bottom: rgba(106, 127, 154, 0.473) solid 1px;
+}
+
+.eth {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #01ffff;
+}
+
+.clk {
+    color: #8bacda;
+}
+
+.line {
+    height: .08px;
+    width: 86%;
+}
+
+.credit {
+    width: 87%;
+    margin-top: 10px;
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    color: #697e99;
+}
+
+.credit img {
+    height: 35px;
+    border: 1px white solid;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.credit span {
+    color: white;
+}
+
+.main-pic:hover {
+    background-color: rgba(1, 255, 255, 0.432);
+}
+
+@media(width>1000px) {
+    main {
+        transform: scale(1.3);
+    }
+}
