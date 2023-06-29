@@ -1,0 +1,105 @@
+.mainTarifs {
+    width: 100vw;
+    height: auto;
+    background-color: #1F2039;
+    ;
+}
+
+#Tarifs-title {
+    padding-bottom: 20px;
+}
+
+@media(width>1065px) {
+    .mainTarifs {
+        padding-top: 100px;
+    }
+
+    .forume {
+        flex-direction: column;
+    }
+
+    .typeOfWork-Tarifs {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    #Tarifs-title {
+        text-align: left;
+        font-size: 45px;
+        font-weight: 300;
+    }
+
+    .Tarifs-top-half {
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+
+    .btn4 {
+        width: 240px;
+        height: 65px;
+        border-radius: 50px;
+        border: none;
+        background-image: linear-gradient(#ACAEED, #8E86B5);
+        margin-bottom: 20px;
+        font-family: montserrat;
+        font-size: 17px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        color: white !important;
+    }
+
+    .TarifsTable {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        margin-bottom: 250px;
+    }
+
+    #Tarifs-studio {
+        text-align: left;
+        width: 80%;
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    .Tarifs-Table {
+        width: 80%;
+        border-collapse: collapse;
+        text-align: center;
+    }
+
+    td,
+    th {
+        border: 1px #A5B4FC solid;
+    }
+
+    th {
+        color: white;
+        font-weight: 500;
+        padding: 20px 0;
+        font-family: montserrat;
+    }
+
+    td {
+        color: #F9F8FF;
+        font-weight: 300;
+        padding: 60px 0;
+        font-size: 14px;
+        font-family: montserrat;
+
+    }
+
+    .tr-2nd {
+        padding: 90px 0;
+    }
+
+
+}

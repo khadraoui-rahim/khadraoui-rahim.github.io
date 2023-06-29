@@ -1,0 +1,163 @@
+body {
+    height: 100vh;
+}
+
+#main-propos {
+    width: 100vw;
+    height: auto;
+    background-color: #1F2039;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#photosOfGirl {
+    display: none;
+}
+
+#APROPOS {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+#h1titleapropos {
+    text-align: left;
+    width: 615px;
+    color: #A5B4FC;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+#textOfPropos {
+    width: 520px;
+    height: 370px;
+    position: relative;
+    color: #F9F8FF;
+    font-weight: 300;
+    margin-bottom: 60px;
+}
+
+#secondBigBox {
+    position: absolute;
+    height: 400px;
+    width: calc(520px / 2);
+    border-right: #A5B4FC solid 1px;
+    border-bottom: #A5B4FC solid 1px;
+    right: -10px;
+    top: 0;
+}
+
+.paragraphOfPropos {
+
+    width: 488px;
+    line-height: 22px;
+    padding-top: 40px;
+}
+
+.spannydanny {
+
+    font-size: 20px;
+    padding: 20px 0;
+    padding-top: 30px;
+}
+
+ul {
+    padding-inline-start: 30px;
+}
+
+#APROPOS ul li {
+    padding-bottom: 3px;
+}
+
+
+
+
+@media (width>1050px) {
+    #photosOfGirl {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 80px;
+        position: relative;
+        margin-bottom: 50px;
+    }
+
+    .womenOf2 {
+        width: 150px;
+        padding-right: 14px;
+    }
+
+    .women-container {
+        display: flex;
+        flex-direction: row;
+        z-index: 2;
+    }
+
+    #last2 {
+        padding-right: 0;
+    }
+
+    #last22 {
+        padding-right: 0;
+    }
+
+    #secondWC {
+        margin-top: 10px;
+    }
+
+    #bigBox {
+        position: absolute;
+        height: 300px;
+        width: 500px;
+        background-color: #2C2E51;
+        z-index: 1;
+        right: -50px;
+        bottom: -30px;
+    }
+
+    .btn4 {
+        width: 287px;
+        height: 65px;
+        border-radius: 50px;
+        border: none;
+        background-image: linear-gradient(#ACAEED, #8E86B5);
+        margin-bottom: 20px;
+        font-family: montserrat;
+        font-size: 17px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        color: white !important;
+    }
+
+
+}
+
+@media(width>1350px) {
+    .womenOf2 {
+        width: 220px;
+    }
+
+    #bigBox {
+        width: 60%;
+        height: 80%;
+    }
+}
+
+@media(width<680px) {
+    #APROPOS {
+        transform: scale(0.59);
+    }
+
+    #main-propos {
+        padding: 0;
+        height: auto;
+    }
+}

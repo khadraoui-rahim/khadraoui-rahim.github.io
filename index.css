@@ -1,0 +1,520 @@
+.Start {
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+html {
+    overflow-x: hidden;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+}
+
+.mainNavbar {
+    background-color: white;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.logo {
+    margin: 24px 0px;
+    position: relative;
+}
+
+.logo-img {
+    width: 82.7px;
+    height: 44.25px;
+}
+
+.box-1 {
+    height: 44.25px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-right: black solid 1px;
+}
+
+.box-2 {
+    height: 18px;
+    position: absolute;
+    right: 8px;
+    top: calc(44.25px - 18px);
+    border-right: black solid 1px;
+}
+
+.box-3 {
+    height: 14px;
+    position: absolute;
+    right: 16px;
+    top: calc(44.25px - 14px);
+    border-right: black solid 1px;
+}
+
+.links {
+    margin-bottom: 24px;
+}
+
+.links:nth-of-type(6) {
+    margin-bottom: 30px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    background-color: #1F2039;
+    align-items: center;
+}
+
+.women-size {
+    width: 287.36px;
+}
+
+.women {
+    width: 287.36px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.corner {
+    width: 80px;
+    height: 80px;
+    border-bottom: #A5B4FC 1px solid;
+    border-right: #A5B4FC 1px solid;
+    position: absolute;
+    bottom: 0;
+    right: -16px;
+
+}
+
+.other-corner {
+    width: 80px;
+    height: 80px;
+    border-bottom: #A5B4FC 1px solid;
+    border-right: #A5B4FC 1px solid;
+    position: absolute;
+    bottom: 10px;
+    right: -16px;
+}
+
+.photo {
+    color: #A5B4FC;
+    font-size: 27px;
+    font-weight: 400;
+    font-family: montserrat;
+    line-height: 33px;
+    width: 287.36px;
+    margin-top: 20px;
+}
+
+#content p {
+    color: #F9F8FF;
+    width: 287.36px;
+    font-size: 16px;
+    line-height: 23px;
+    font-family: manrope;
+}
+
+.btn {
+    width: 287px;
+    height: 65px;
+    border-radius: 50px;
+    border: none;
+    background-image: linear-gradient(#ACAEED, #8E86B5);
+    margin-bottom: 20px;
+    font-family: montserrat;
+    color: white !important;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#photos {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#photos img {
+    width: 307px;
+    height: 290px;
+}
+
+.ph2t {
+    margin-top: 14px;
+}
+
+#photos img:nth-of-type(1) {
+    margin-bottom: 14px;
+}
+
+.ph-trio img:nth-of-type(2) {
+    margin-bottom: 14px;
+}
+
+#photos img:nth-of-type(3) {
+    margin-bottom: 14px;
+}
+
+#ph-title {
+    width: 307px;
+    font-size: 25px;
+    font-family: montserrat;
+    color: #1F2039;
+    font-weight: 600;
+    margin-top: 35px;
+    margin-bottom: 26px;
+}
+
+.ph-trio {
+    width: 307px;
+    height: calc(290*3px + 14*2px);
+    display: flex;
+    flex-direction: column;
+}
+
+.ph-2 {
+    margin-top: 0 !important;
+}
+
+.forume {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2039;
+    align-items: center;
+}
+
+#f-title {
+    text-align: center;
+    font-size: 25px;
+    width: 260px;
+    margin: 40px 0;
+    font-weight: 400;
+}
+
+#fnom {
+    color: white;
+    font-size: 18px;
+    margin: 15px 0;
+    font-weight: 400;
+}
+
+#nom {
+    width: 253px;
+    height: 35px;
+    font-size: larger;
+    border-radius: 3px;
+    border: none;
+    padding-bottom: calc(62px - 35px);
+    font-family: montserrat;
+
+}
+
+#fnom2 {
+    color: white;
+    font-size: 18px;
+    margin: 15px 0;
+    font-weight: 400;
+}
+
+#nom2 {
+    width: 253px;
+    height: 35px;
+    font-size: larger;
+    border-radius: 3px;
+    border: none;
+    padding-bottom: calc(62px - 35px);
+    margin-bottom: 5px;
+    font-family: montserrat;
+
+}
+
+#fnom3 {
+    color: white;
+    font-size: 18px;
+    margin: 15px 0;
+    font-weight: 400;
+}
+
+#nom3 {
+    width: 253px;
+    height: 35px;
+    border-radius: 3px;
+    border: none;
+    padding-bottom: 160px;
+    font-size: larger;
+    font-family: montserrat;
+}
+
+.f-nom {
+    display: flex;
+    flex-direction: column;
+}
+
+#btn-2 {
+    width: 206px;
+    height: 61px;
+    margin-top: 40px;
+}
+
+.f-title {
+    text-align: center;
+    font-size: 25px;
+    width: 260px;
+    margin: 40px 0;
+    font-weight: 500;
+    color: #A5B4FC;
+}
+
+.typeOfWork {
+    width: 278px;
+    height: 285px;
+    border-right: #A5B4FC 1px solid;
+    border-bottom: #A5B4FC 1px solid;
+    margin-bottom: 60px;
+}
+
+.towTitle {
+    font-family: montserrat;
+    color: #A5B4FC;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.towParagraph {
+    color: #F9F8FF;
+    width: 240px;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 200;
+    margin: 22px 0;
+    font-family: manrope;
+
+}
+
+.towPrice {
+    color: #A5B4FC;
+    font-size: 16px;
+    font-family: montserrat;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.towSource {
+    font-weight: 200;
+    font-size: 10px;
+    color: #F9F8FF;
+
+}
+
+#footBar {
+    width: 100vw;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.logo2s {
+    transform: scale(0.7);
+    margin-right: 0;
+}
+
+#ins {
+    width: 31.44px;
+}
+
+#twt {
+    width: 37px;
+    margin-top: 30px;
+}
+
+.hidden {
+    display: none;
+}
+
+.grouper {
+    display: flex;
+    flex-direction: column;
+}
+
+.unifier {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+@media(width>1050px) {
+    .mainNavbar {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin: 8px 0;
+    }
+
+    .logo {
+        margin: 0;
+        margin-right: 400px;
+    }
+
+    .links {
+        margin: 0;
+    }
+
+    #third {
+        margin: 0;
+    }
+
+    .hidden {
+        display: flex;
+    }
+
+    .dk-hidden {
+        display: none;
+    }
+
+    #content {
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 80px 0;
+    }
+
+    .photo {
+        margin-bottom: 10px;
+        font-size: 55px;
+        width: 400px;
+
+    }
+
+    #content p {
+        color: #F9F8FF;
+        width: 400px;
+        font-size: 16px;
+        line-height: 23px;
+        font-family: manrope;
+        margin-bottom: 30px;
+    }
+
+    .women-size {
+        width: 419px;
+    }
+
+    .women {
+        width: 419px;
+    }
+
+    .grouper {
+        transform: scale(1.15);
+        width: auto;
+        justify-content: baseline;
+        margin-right: 0;
+    }
+
+    .ph-trio {
+        flex-direction: row;
+        justify-content: center;
+        height: auto;
+    }
+
+    .im1 {
+        margin-right: 14px;
+    }
+
+    .im2 {
+        margin-right: 14px;
+    }
+
+    .ph2t {
+        margin: 0;
+    }
+
+    #ph-title {
+        margin: 50px 0;
+    }
+
+    #btn-3 {
+        width: 250px;
+        height: 61px;
+        margin-top: 40px;
+    }
+
+    #photos {
+        padding: 30px 0;
+    }
+
+    #f-title {
+        width: auto;
+        font-weight: 500;
+    }
+
+    .unifier {
+        flex-direction: row;
+        width: 540px;
+        justify-content: space-between;
+    }
+
+    .biggy {
+        width: 540px;
+    }
+
+    #nom3 {
+        width: 540px;
+    }
+
+    .forume {
+        padding: 20px 0;
+        padding-bottom: 40px;
+    }
+
+    #footBar {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px 0;
+        width: 90vw;
+        padding-bottom: 0px;
+
+    }
+
+    #twt {
+        margin: 0;
+    }
+
+    .logo2s {
+        margin-right: 88%;
+    }
+}
