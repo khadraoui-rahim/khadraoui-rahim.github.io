@@ -1,0 +1,342 @@
+html,
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    width: 100%;
+    margin: 0;
+    font-size: 18px;
+}
+
+body {
+    margin-top: 6.75rem;
+    background-color: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.bg {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.opener,
+.keepTrack,
+.access,
+.superCharge {
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+}
+
+.opener-heading,
+.KeepTrack-heading {
+    font-size: 1.75rem;
+    color: hsl(210, 10%, 33%);
+    margin-top: 3.25rem;
+}
+
+.opener-paragraph {
+    font-size: .9rem;
+    margin: 0 6px;
+    color: hsl(201, 11%, 66%);
+}
+
+.opener-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 3.25rem;
+}
+
+.opener-buttons button {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 1rem;
+    width: 18rem;
+    min-height: 3rem;
+    font-weight: 400;
+    border-radius: 2rem;
+    border: none;
+    border-bottom: 1px black solid;
+    color: white;
+}
+
+.opener-buttons button:nth-of-type(1) {
+    background-color: hsl(171, 66%, 44%);
+    border-bottom: 2.5px hsl(171, 66%, 29%) solid;
+
+}
+
+.opener-buttons button:nth-of-type(2) {
+    background-color: hsl(233, 100%, 69%);
+    border-bottom: 2.5px hsl(233, 68%, 49%) solid;
+}
+
+.KeepTrack-heading {
+    font-size: 1.5rem;
+}
+
+.space {
+    line-height: 1.35rem;
+}
+
+.keepTrack img,
+.access img {
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.features {
+    display: grid;
+    width: 100%;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.features h1 {
+    margin: 1rem 0;
+    font-size: 1.3rem;
+}
+
+.access {
+    margin-top: 6rem;
+}
+
+
+.superCharge .title h1 img {
+    margin: auto;
+    margin: 1rem auto;
+    display: block;
+}
+
+.superChargeCompanies {
+    margin: 3rem 0;
+}
+
+.superChargeCompanies img {
+    box-sizing: border-box;
+    display: block;
+    margin: 2.5rem auto;
+    max-width: 7rem;
+}
+
+footer {
+    width: 100%;
+    background-color: #f5f6f8;
+    min-height: 28rem;
+    display: grid;
+    grid-template-rows: 3fr repeat(5, 1fr) 2fr;
+    justify-items: center;
+    margin-top: 6rem;
+}
+
+footer img {
+    align-self: center;
+    width: 3rem;
+}
+
+footer div {
+    color: hsl(210, 10%, 33%);
+}
+
+.icons {
+    display: flex;
+    gap: 2rem;
+}
+
+.icons img {
+    width: 1.5rem;
+    position: relative;
+    top: -.75rem;
+}
+
+.hide-mb {
+    display: none;
+}
+
+@media(width>1200px) {
+    .hide-dk {
+        display: none;
+    }
+
+    .hide-mb {
+        display: block;
+    }
+
+    .opener,
+    .keepTrack,
+    #trackof,
+    .access,
+    .superCharge,
+    #superCharge {
+        width: 40rem;
+    }
+
+    .opener-heading {
+        font-size: 2.5rem;
+        margin-bottom: 1.25rem;
+    }
+
+    .opener-paragraph {
+        font-size: 1.1rem;
+        margin: 0;
+    }
+
+    .opener-buttons {
+        flex-direction: row;
+    }
+
+    .opener-buttons button {
+        width: 12.5rem;
+    }
+
+    .opener-buttons button:nth-of-type(1) {
+        box-shadow: 0 5px 27px -4px hsla(171, 66%, 44%, 0.749);
+    }
+
+    .opener-buttons button:nth-of-type(2) {
+        box-shadow: 0 5px 27px -4px hsl(173, 4%, 59%);
+    }
+
+    .keepTrack {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+    }
+
+    #trackof {
+        grid-column: 1/span 2;
+        width: 40rem;
+        justify-self: center;
+        margin-bottom: 4rem;
+    }
+
+    #trackof .KeepTrack-heading,
+    #access .KeepTrack-heading,
+    #superCharge .KeepTrack-heading,
+    .opener .KeepTrack-heading {
+        font-size: 2rem;
+    }
+
+    #trackof p,
+    #access p,
+    #superCharge p,
+    #ender p {
+        font-size: 1rem;
+    }
+
+    .keepTrack img {
+        margin: 0;
+        width: 100%;
+        position: relative;
+        justify-self: flex-end;
+        max-width: 720px;
+    }
+
+    .features {
+        text-align: left;
+        align-self: flex-start;
+        width: 19rem;
+        margin-left: 5rem;
+    }
+
+    .features .opener-paragraph {
+        font-size: .9rem;
+        line-height: 1.7rem;
+    }
+
+    .access img {
+        width: 130%;
+    }
+
+    .superCharge {
+        width: 60rem;
+    }
+
+    .superChargeTools {
+        display: flex;
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .superChargeTools div:nth-of-type(1) {
+        position: relative;
+        top: -9px;
+    }
+
+    .superChargeTools .opener-paragraph {
+        font-size: .9rem;
+    }
+
+    .superChargeCompanies {
+        display: grid;
+        margin: 5rem 0;
+        grid-template-columns: repeat(5, 1fr);
+        width: 110%;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .superChargeCompanies img {
+        max-width: 9rem;
+    }
+
+    footer {
+        display: grid;
+        width: 100%;
+        padding: 0 5rem;
+        grid-template-rows: auto;
+        grid-template-columns: 1.5fr repeat(5, 1fr);
+        grid-template-rows: 1fr 1fr;
+        min-height: 9rem;
+        align-items: center;
+        box-sizing: border-box;
+        gap: .5rem;
+    }
+
+    footer div {
+        justify-self: left;
+        align-self: flex-end;
+    }
+
+    footer img:nth-of-type(1) {
+        grid-column: 1;
+        grid-row: 1/span2;
+    }
+
+    footer div:nth-of-type(1) {
+        grid-column: 2;
+    }
+
+    footer div:nth-of-type(2) {
+        grid-column: 2;
+        grid-row: 2;
+        align-self: flex-start;
+    }
+
+    footer div:nth-of-type(4) {
+        grid-column: 3;
+        grid-row: 2;
+        align-self: flex-start;
+
+    }
+
+    footer div:nth-of-type(6) {
+        grid-column: 5/span 2;
+        grid-row: 1/ span 2;
+    }
+
+    .icons {
+        align-self: center;
+        justify-self: center;
+    }
+
+    .icons img {
+        top: auto;
+    }
+}
